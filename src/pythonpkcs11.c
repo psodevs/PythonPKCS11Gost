@@ -22,8 +22,8 @@
 #endif
 
 #endif //_WIN32
-#include <Python.h>
 #define PY_SSIZE_T_CLEAN
+#include <Python.h>
 #define MODULE_SCOPE static
 
 /* PKCS#11 Definitions for the local platform */
